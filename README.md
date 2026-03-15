@@ -2,21 +2,30 @@
 
 This project implements a biometric attendance system using ESP32 and a fingerprint sensor.
 
-Features
+## Features
 - Fingerprint authentication
 - Login and logout tracking
+- User name detection
 - Working time calculation
-- GUI dashboard for attendance monitoring
+- GUI dashboard for monitoring attendance
 
-Hardware
+## Hardware Used
 - ESP32
 - R307 Fingerprint Sensor
+- Jumper wires
+- Breadboard
 
-Software
+## Software Used
 - Embedded C
 - Python Tkinter GUI
+- Arduino IDE
 
-Applications
+## Project Structure
+esp32_code.c   -> ESP32 embedded code  
+gui.py         -> GUI dashboard  
+README.md      -> Project documentation  
+
+## Applications
 - Smart attendance system
-- Office entry monitoring
+- Office employee monitoring
 - Secure access control
